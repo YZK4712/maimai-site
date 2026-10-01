@@ -62,7 +62,7 @@ const oshi = [
     members: ["奏", "真冬", "绘名", "瑞希"] },
   { tag: "LEO/NEED", title: "Leo/need 全员", c: "#6ee7ff", note: "全员都喜欢。",
     members: ["一歌", "咲希", "穗波", "志步"] },
-  { tag: "KAMITSUBAKI", title: "星界", c: "#c4b5fd", note: "神椿的歌声。" },
+  { tag: "KAMITSUBAKI", title: "星界", c: "#c4b5fd", note: "SEKAI，神椿的歌声。" },
   { tag: "KAMITSUBAKI", title: "可不", c: "#ffffff", note: "KAFU，神椿的歌声。" },
   { tag: "BAND", title: "结束乐队", c: "#ff7ab8", note: "最喜欢的乐队之一。" },
   { tag: "BAND", title: "MyGO!!!!!", c: "#6ee7ff", note: "迷子也要一起走下去。" },
