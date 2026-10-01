@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>maimai 作品集 ─ 月光与宇宙</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<canvas id="bg"></canvas>
+
+<nav>
+  <a href="#top" class="logo">mai<span>mai</span></a>
+  <ul>
+    <li><a href="#favorites">最爱</a></li>
+    <li><a href="#played">打过的歌</a></li>
+    <li><a href="#charts">最爱的谱</a></li>
+    <li><a href="#oshi">推し</a></li>
+  </ul>
+</nav>
+
+<header id="top" class="hero">
+  <div class="rings"><i></i><i></i><i></i></div>
+  <p class="eyebrow">MAIMAI DX &nbsp;×&nbsp; 神椿 STYLE</p>
+  <h1>舞萌<br><em>作品集</em></h1>
+  <p class="lead">打过的歌、喜欢的音乐、喜欢的谱面。<br>在月光下，朝着宇宙的尽头继续点击。</p>
+  <p class="player" id="playerInfo"></p>
+  <a class="btn" href="#favorites">START ▸</a>
+</header>
+
+<section id="favorites">
+  <h2><span>01</span>最喜欢的音乐</h2>
+  <div class="cards" id="favCards"></div>
+</section>
+
+<section id="played">
+  <h2><span>02</span>打过的歌</h2>
+  <div class="filters" id="filters"></div>
+  <ul class="songlist" id="songList"></ul>
+</section>
+
+<section id="charts">
+  <h2><span>03</span>最喜欢的谱</h2>
+  <div class="charts" id="chartCards"></div>
+</section>
+
+<section id="oshi">
+  <h2><span>04</span>推し &amp; 偏好</h2>
+  <div class="oshi" id="oshiCards"></div>
+</section>
+
+<footer>
+  <p>© maimai fan page · 非官方个人站点 · maimai 版权归 SEGA 所有，神椿版权归 KAMITSUBAKI STUDIO 所有</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
